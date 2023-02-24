@@ -14,7 +14,7 @@ body {
 }
 
 #container {
-    background-color: wheat;
+    background-color: #f5efef;
     width: 360px;
     margin: 56px auto 0px;
     padding: 0 16px;
@@ -110,4 +110,128 @@ body {
     backdrop-filter: blur(11px);
     border-radius: 8px;
     padding: 20px 16px 16px 16px;
+    display: grid;
+    grid-template-columns: 15% 70% 15%;
+}
+
+.query-info h1 {
+    width: 94px;
+    height: 22px;
+    left: 80px;
+    top: 202px;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 160%;
+    display: flex;
+    align-items: center;
+    color: #464646
+}
+
+.query-info img {
+    width: 16px;
+    height: 10.67px;
+    left: 80px;
+    top: 228.67px;
+    color: #A3A3A3;
+}
+
+.query-info span {
+    width: 101px;
+    height: 19px;
+    left: 104px;
+    top: 224px;
+    font-weight: 400;
+    font-size: 12px;
+    align-items: center;
+    color: #A3A3A3;
+}
+
+.chat {
+    width: 32px;
+    height: 32px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    background: #F6F6F6;
+}
+
+.client-box .line {
+    position: absolute;
+    width: 328px;
+    height: 1px;
+    left: 16px;
+    top: 255px;
+
+    background: #ee1010;
+    opacity: 0.1;
+}
+
+.buttons {
+    width: 295px;
+    height: 48px;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    gap: 10px;
+}
+
+.buttons .video button {
+    width: 139px;
+    height: 48px;
+    background: #FFB050;
+    box-shadow: 0px 4px 16px rgba(255, 176, 80, 0.16);
+    border-radius: 8px;
+    border: none;
+    font-family: 'Montserrat';
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 160%;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.buttons .audio button {
+    width: 139px;
+    height: 48px;
+    background: #FFFFFF;
+    border: 1px solid #ECECEC;
+    border-radius: 8px;
+    border: 1px solid #ECECEC;
+    font-family: 'Montserrat';
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 160%;
+    text-align: center;
+    color: #464646;
+}
+
+
+
+/*
+.query-info h1 {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 160%;
+    color: #464646;
+}
+
+.query-info{
+    height: 50px;
+}
+
+.query-info span {
+    font-weight: 400;
+    font-size: 12px;
+    align-items: center;
+    color: #A3A3A3;
+}
+
+.chat {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    background: #F6F6F6;
 }
